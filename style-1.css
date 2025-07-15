@@ -1,0 +1,348 @@
+body{
+  background-color: #EEEEEE;
+}
+
+/* ----------Hero Slider Start------------- */
+.Hero-image-container {
+  position: relative;
+}
+.Hero-image-container img{
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+.Hero-image-container .overlay {
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+.Hero-image-container .content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Hero-image-container .content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.Hero-image-container .content .ContactUs {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #ff4d26;
+  color: white;
+  border: none;
+  padding: 0.4rem 1.5rem;
+}
+.citybtn{
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #ff4d26;
+  color: white;
+  border: none;
+ 
+}
+.citybtn:hover{
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #ff4d26;
+  color: white;
+  border: none;
+ 
+}
+@media (max-width: 768px) {
+.Hero-image-container img{
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.Hero-image-container .content h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Hero-image-container .content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+  
+}
+/* ----------Hero Slider End------------- */
+/* -----------------Form Section Start------------------- */
+.form-container {
+  margin: 50px auto;
+  top: 80px;
+  padding: 20px;
+  background-color: #04223e;
+  border-radius: 8px;
+  z-index: 1;
+}
+.form-control{
+  border: 1px solid white !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn-orange {
+  background-color: #df1119;
+  color: #fff !important;
+  padding: 10px;
+}
+.btn-orange:hover {
+  background-color: #df1119;
+}
+
+/* -----------------Form Section End------------------- */
+
+ /* =====Service We Offer start==== */
+
+.main-topic{
+  color:#df1119 ;
+}
+.service-icon-container{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+.service-off-title{
+  font-size: 14px;
+}
+.service-off-para{
+  display: inline-block;
+  background-color: #df1119;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+/* =====Incredible Solutions start==== */
+.Incrible-solutuion{
+  background-color: #E5E7EA;
+  padding: 20px;
+}
+.Incrible-solutuion h4{
+  color: #04223E;
+}
+.Incrible-solutuion{
+  color: #304364;
+}
+.Incrible-solutuion-icon-container{
+  width: 4rem;
+  height: 4rem;
+  padding: 10px;
+  background-color: #df1119;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid white;
+}
+.booknow-btn{
+  background-color: #04223E;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.booknow-btn:hover{
+  color: #fff;
+}
+
+/* =====How it works start==== */
+.how-it-works-content{
+  padding-left: 10px;
+}
+.how-it-works-content p{
+  margin-top: 10px;
+}
+.how-it-works-content h6 {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: #04223E;
+}
+
+.how-it-works-content h6::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 3px; /* अंडरलाइन की मोटाई */
+  background-color: #04223E; /* अंडरलाइन का रंग */
+  bottom: -5px; /* टेक्स्ट से दूरी */
+  left: 0;
+}
+
+
+
+/* // */
+.service-card-container {
+  position: relative;
+  background: #fff;
+  text-align: center;
+  padding: 0px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.service-card-container:hover {
+  transform: translateY(-10px);
+}
+
+.service-image {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.service-icon-con {
+  position: absolute;
+  top: 110px;
+  left: 20%;
+  margin: 90px auto -12px;
+  transform: translate(-50%, -50%);
+  background: #df1119;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  border: 4px solid #fff;
+
+}
+@media (max-width: 768px) {
+  .service-icon-con {
+    position: absolute;
+    top: 110px;
+    left: 20%;
+    margin: 90px auto -12px;
+    transform: translate(-50%, -50%);
+    background: #df1119;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    border: 4px solid #fff;
+  
+  }
+}
+.service-icon-con i{
+  color: #fff;
+}
+.service-title-con{
+  margin-top: 30px;
+  text-align: start;
+  color: #fff;
+  font-weight: 700;
+}
+.service-text-con{
+  text-align: start;
+  color: #fff;
+}
+.feature-card {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s;
+  margin-top: 50px;
+}
+
+.feature-card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  background-color:#fff ;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -68px auto -12px;
+  position: relative;
+  z-index: 10;
+}
+
+.feature-icon img {
+  width: 80px;
+  height: 80px;
+ border-radius: 50%;
+}
+.stars {
+  color: #fbc02d;
+ 
+
+}
+
+
+
+
+.Why-omexa-img img{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-bottom: 10px;
+
+}
+/* ------------Start  Services Section------------- */
+
+.service_card{
+  padding: 20px;
+  border-radius: 10px;
+  background-color:#EEF2FF;
+}
+
+/* ------------End  Services Section------------- */
+.Service-area-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.Service-area-list li{
+  padding-right: 20px;
+}
+.Service-area-list li p{
+  background-color: #fff;
+  padding: 5px;
+}
+.Service-area-list li::marker {
+  color: #D6EAFF; /* Disc color */
+}
+
+.service-card-container {
+  background-color: #092a49;
+  padding: 20px;
+  text-align: start;
+}
+.service-card-container img {
+  border-radius: 10px;
+}
+.service-card-container h4{
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.bookNow-btn {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+  background-color: #df1119;
+  padding: 5px 10px;
+}
+.bookNow-btn:hover {
+  color: #fff;
+}
