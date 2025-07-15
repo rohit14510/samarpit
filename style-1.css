@@ -346,3 +346,8 @@ body{
 .bookNow-btn:hover {
   color: #fff;
 }
+.menu-wrapper {
+  position: sticky !important;
+  top: 0;
+  z-index: 999;
+}
