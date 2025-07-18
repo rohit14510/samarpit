@@ -13,7 +13,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   new Splide('#Testimonial', {
     type: 'loop',
-    perPage: 2, // Default for desktop
+    perPage: 3, // Default for desktop
     perMove: 1,
     gap: '20px',
     arrows: false,

@@ -549,7 +549,7 @@ header .sticky .logo-img img {
   font-weight: 700;
   color: white;
   line-height: 1.2;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -858,7 +858,6 @@ header .sticky .logo-img img {
   color: #ff4d26;
 }
 .why-choose-us {
-  padding: 80px 40px;
   color: white;
   min-height: 600px;
   display: flex;
@@ -895,7 +894,7 @@ header .sticky .logo-img img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -50px;
+ 
 }
 
 .form-title {
@@ -987,9 +986,12 @@ header .sticky .logo-img img {
 }
 
 @media (max-width: 768px) {
-  .why-choose-us,
+  .why-choose-us {
+    padding: 40px 0px;
+    min-height: auto;
+  }
   .quote-form-container {
-    padding: 40px 20px;
+    padding: 40px 10px;
   }
 
   .form-title {
@@ -1041,7 +1043,7 @@ header .sticky .logo-img img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 50px 0 25px;
+  padding: 100px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1064,7 +1066,7 @@ header .sticky .logo-img img {
 }
 #Testimonial {
   position: static;
-  margin: 0 110px;
+  margin: 0px;
 }
 .testi-slider {
   display: flex;

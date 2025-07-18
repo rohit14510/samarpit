@@ -197,7 +197,7 @@
     </section>
 
     <!--===Hero-Section-End===-->
-    <div class="container-fluid py-5">
+    <div class="container py-5">
       <div class="row max-width-container mx-auto" style="max-width: 1400px">
         <!-- Services Sidebar -->
         <div class="col-lg-4 col-md-5">
@@ -325,9 +325,9 @@
     </div>
 
     <!--===Why-Choose-Section-Start===-->
-    <section class="quote-section">
-      <div class="container-fluid p-0">
-        <div class="row g-0">
+   <section class="quote-section">
+      <div class="container">
+        <div class="row ">
           <div class="col-lg-6">
             <div class="why-choose-us">
               <div class="why-section-label">
@@ -357,11 +357,11 @@
             </div>
           </div>
 
-          <div class="col-lg-6 p-2">
+          <div class="col-lg-6">
             <div class="quote-form-container">
               <h3 class="form-title">Request A Quote</h3>
 
-              <form id="quoteForm">
+              <form action="form.php" method="post" name="form" id="quoteForm">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -449,7 +449,12 @@
                   ></textarea>
                 </div>
 
-                <button type="submit" class="submit-btn">
+                <button
+                  type="submit"
+                  name="submit"
+                  value="Submit"
+                  class="submit-btn"
+                >
                   Contact Us Now
                   <i class="fas fa-arrow-right"></i>
                 </button>
