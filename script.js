@@ -62,3 +62,25 @@ document.addEventListener( 'DOMContentLoaded', function () {
   document.addEventListener('DOMContentLoaded', startCountersWhenVisible);
 
 
+// gallery button
+ const buttons = document.querySelectorAll('.gallery-btn');
+  const images = document.querySelectorAll('.gallery-item');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Remove active class from all buttons
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const gallery = btn.getAttribute('data-gallery');
+
+      // Show corresponding image and hide others
+      images.forEach(img => {
+        if(img.getAttribute('data-gallery') === gallery){
+          img.classList.remove('d-none');
+        } else {
+          img.classList.add('d-none');
+        }
+      });
+    });
+  });
