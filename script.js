@@ -10,21 +10,15 @@
       pagination: true,
     }).mount();
   });
-document.addEventListener('DOMContentLoaded', function () {
-  new Splide('#Testimonial', {
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '#customerSplide', {
     type: 'loop',
-    perPage: 3, // Default for desktop
-    perMove: 1,
-    gap: '20px',
+    perPage: 1,
     arrows: false,
-    pagination: true,
-    breakpoints: {
-      768: {
-        perPage: 1, // For mobile and tablets
-      },
-    },
-  }).mount();
-});
+    pagination: false,
+    gap: '2rem',
+  } ).mount();
+} );
 
 
 //counter
