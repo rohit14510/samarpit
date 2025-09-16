@@ -14,6 +14,8 @@ document.addEventListener( 'DOMContentLoaded', function () {
   new Splide( '#customerSplide', {
     type: 'loop',
     perPage: 1,
+      autoplay: true,
+      interval: 2000,
     arrows: false,
     pagination: false,
     gap: '2rem',

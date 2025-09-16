@@ -776,7 +776,7 @@ header .sticky .logo-img img {
   color: #17453b;
   border-radius: 26px;
   padding: 5px 18px;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -790,7 +790,7 @@ header .sticky .logo-img img {
   color: #17453b;
   border-radius: 26px;
   padding: 5px 18px;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 500;
   display: flex;
   align-items: center;
